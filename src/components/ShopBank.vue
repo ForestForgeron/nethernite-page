@@ -89,6 +89,7 @@ export default {
   }
 
   &__title {
+    font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
     text-transform: capitalize;
@@ -105,7 +106,7 @@ export default {
     row-gap: 20px;
 
     max-height: 715px;
-    margin-top: 25px;
+    margin-top: 30px;
   }
 }
 

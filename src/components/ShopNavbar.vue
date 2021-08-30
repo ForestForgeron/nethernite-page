@@ -33,6 +33,8 @@ export default {
 <style lang="scss" scoped>
 .shop-navbar {
   padding-top: 10px;
+
+  font-family: "Open Sans", sans-serif;
   &__list {
     display: flex;
     gap: 10px;

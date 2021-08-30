@@ -48,6 +48,8 @@ export default {
   width: 140px;
   height: 55px;
 
+  font-family: "Open Sans", sans-serif;
+
   background: transparent;
 
   border: 2px #9794c622 solid;
@@ -64,6 +66,7 @@ export default {
   &:hover {
     background-color: lighten($color: #9794c622, $amount: 1);
     border-color: #9794c6;
+    transform: scale(1.05);
   }
 }
 @media screen and(max-width:960px) {
